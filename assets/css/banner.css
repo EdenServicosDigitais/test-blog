@@ -4,15 +4,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 110%;
-    }
+}
 
 .banner h1 {
     margin: 20px;
+    font-size: 30pt;
 }
 
-.banner img{
+.banner p {
+    font-size: 15pt;
+}
+
+.banner img {
     background-color: springgreen;
     border-radius: 100%;
-    
     width: 100px;
 }

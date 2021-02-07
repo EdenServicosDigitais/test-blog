@@ -1,9 +1,12 @@
 .news {
     display: flex;
+    align-items: center;
+    align-content: center;
     justify-content: center;
 }
 
 .news img {
+    height: 160px;
     width: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -24,25 +27,80 @@
     box-shadow: 1px 1px rgba(0, 0, 0, 0.138);
     border-radius: 10px;
     width: 300px;
-}
-.news-card h3{
-    padding: 10px;
-    padding-bottom: 0;
+    background-color: white;
 }
 
-.news-card p{
+.news-card h2 {
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.news-card p {
     padding: 10px;
     text-align: justify;
     font-weight: lighter;
 }
 
-.news a{
+.news-card h2:hover {
+    text-decoration: underline;
+}
+
+.news a {
     text-decoration: none;
+    margin-left: 0;
     color: black;
 }
 
-.data-post{
+.data-post {
     font-size: 10pt;
     font-weight: bold;
     font-style: italic;
+}
+
+.main-news {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.main-news-item {
+    width: 50%;
+    text-align: center;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.268);
+}
+
+.main-news-item h1, p, b {
+    padding: 15px;
+}
+
+.main-news-item h1 {
+    font-size: 30pt;
+}
+
+.main-news-item a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0;
+}
+
+.main-news-item a:hover {
+    text-decoration: underline;
+}
+
+.main-news-item p{
+font-size: 16pt;
+}
+
+.main-news img {
+    width: 100%;
+    text-align: center;
+}
+
+.tag-news {
+    background-color: springgreen;
+    font-weight: bold;
 }
